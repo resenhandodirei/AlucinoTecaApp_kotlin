@@ -50,9 +50,11 @@ const Navbar = () => {
 
                     <div className='md:hidden flex items-center'>
                         <button
-                         className='inline-flex items-center justify-center p-2 rounded-md text-white md:text-white hover:text-white focus:outline-none focus:ring-inset focus:ring-white'
+                         className='inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white focus:outline-none focus:ring-inset focus:ring-white'
                          onClick={toggleNavbar}
-                         ></button>
+                         >
+                            
+                         </button>
                     </div>
                 </div>
             </div>
